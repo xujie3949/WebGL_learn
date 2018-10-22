@@ -13,7 +13,7 @@ var VSHADER_SOURCE =
 var FSHADER_SOURCE = 
   '#ifdef GL_ES\n' +
   'precision mediump float;\n' +
-  '#endif GL_ES\n' +
+  '#endif\n' +
   'varying vec4 v_Color;\n' +
   'void main() {\n' +
   '  gl_FragColor = v_Color;\n' +
